@@ -1,14 +1,15 @@
-import React from 'react';
-import CreateTicket from './CreateTicket';
-import HeroSection from './HeroSection';
+import React from "react";
 
-function SupportPage() {
-    return ( 
-        <>
-            <CreateTicket />
-            <HeroSection />
-        </>
-     );
+import HeroSection from "./HeroSection";
+import CreateTicket from "./CreateTicket";
+
+function PricingPage() {
+  return (
+    <>
+      <HeroSection />
+      <CreateTicket />
+    </>
+  );
 }
 
-export default SupportPage;
+export default PricingPage;
