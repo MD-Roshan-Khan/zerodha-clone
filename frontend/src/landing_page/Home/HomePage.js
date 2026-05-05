@@ -2,7 +2,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import Awards from './Awards';
 import Stats from './Stats';
-import Pricing from './Pricing';
+import Pricing from './pricing';
 import Education from './Education';
 import OpenAccount from '../OpenAccount';
 
